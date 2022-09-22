@@ -4,8 +4,9 @@ import random
 import time
 print(" match instructions ->")
 print(" * This a simple cricket game Thats will Definatly entertain you")
-print(" * This a bowler based game To out the Batsman  you need to  guess a number, if you guess a number correctly the Batsman will be out, if not The score will be adding up to End of Overs or up to Last wickets i.e upto 10 wickets ")
-print("I hope You will enjoy the game ")
+print(" * This a bowler based game To out the Batsman  you need to guess a number, if you guess a number correctly the Batsman will be out, if not The score will be adding up to End of Overs or up to Last wickets i.e upto 10 wickets =All OUT")
+print()
+print("* I hope You will enjoy the game ")
 print('-')#this is to give some space so that code will be easy read;
 print('-')#This line is to give some space
 print('-')
@@ -21,10 +22,13 @@ print('-')#this line is to give some space
 print('-')
 print('-')
 time.sleep(2)
+print("Let's begin the match")
+time.sleep(3)
 
 
 
 print("------------------Game Starts in------------------!!!")
+time.sleep(2)
 c=10
 while c>=0:
     print(c)
@@ -49,11 +53,6 @@ reviews=2
 while balls<30:
     batsman=random.randint(1,6)
     score=random.randint(0,6)
-    if score==6:
-        print("SKY SHOT !!!  Thats!!! MAXIMUM gone for SiX!!! ^^|^^")                                                 
-    elif score==4:
-        print("boundry gone for FOUR----<<|>>----")
-                             
     bowler=int(input("enter the number from o to 5:"))
     balls+=1
     if batsman>5:
@@ -120,3 +119,4 @@ while balls<30:
         print("score Board=",runs,"/",wickets)
         
 print("------------------- second innings-----------------")
+
